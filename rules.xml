@@ -1,0 +1,20 @@
+<group name="custom_lab_rules,">
+
+  <rule id="100001" level="8">
+    <if_sid>5400</if_sid>
+    <match>/etc/passwd</match>
+    <description>Possible account enumeration - /etc/passwd accessed via sudo</description>
+  </rule>
+
+  <rule id="100002" level="10">
+    <if_sid>5715</if_sid>
+    <srcip>192.168.100.30</srcip>
+    <description>SSH login from known attacker IP (Kali Linux - 192.168.100.30)</description>
+  </rule>
+
+  <rule id="100003" level="12" frequency="3" timeframe="300">
+    <if_matched_sid>5902</if_matched_sid>
+    <description>Mass account creation detected - possible attacker backdooring</description>
+  </rule>
+
+</group>
