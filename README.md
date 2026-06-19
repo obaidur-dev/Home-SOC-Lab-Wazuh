@@ -67,6 +67,17 @@ The original guide allocated 4 GB RAM to the Wazuh server. Due to deploying a ne
 - Cloud security operations
 
 ---
+## How This Lab Was Built
+
+When I started this project, I had no prior hands-on experience with SIEM deployment or SOC operations. While building the lab, I documented the setup process, configuration steps, and testing activities.
+
+If you're wondering how this project was implemented, you can find the complete documentation in:
+
+`docs/How_I_Built_This_Home_SOC_Lab.pdf`
+
+The document is not intended as an authoritative guide. It is a record of my learning process and the steps I followed to build the lab successfully. I hope it helps other beginners who are starting their cybersecurity journey.
+
+---
 
 ## About the Author
 
